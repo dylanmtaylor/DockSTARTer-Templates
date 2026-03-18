@@ -1,0 +1,14 @@
+["samba:WORKGROUP"]
+helpline = "SMB workgroup name (typically WORKGROUP for home networks)."
+
+["samba:NMBD"]
+helpline = "Run the NetBIOS name service daemon for network discovery."
+
+[["samba:NMBD".options]]
+value = "'true'"
+label = "Enabled"
+help = "Allows the share to appear in network browsers."
+
+[["samba:NMBD".options]]
+value = "'false'"
+label = "Disabled"

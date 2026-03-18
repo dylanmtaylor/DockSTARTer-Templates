@@ -1,0 +1,8 @@
+["phpmyadmin:PMA_HOST"]
+helpline = "MySQL/MariaDB hostname to connect to (e.g. mariadb)."
+
+["phpmyadmin:PMA_USER"]
+helpline = "Default login username."
+
+["phpmyadmin:PMA_PASSWORD"]
+helpline = "Default login password."

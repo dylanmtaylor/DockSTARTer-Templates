@@ -1,0 +1,153 @@
+["amd:FORMAT"]
+helpline = "Audio format for downloaded tracks."
+
+[["amd:FORMAT".options]]
+value = "'FLAC'"
+label = "FLAC"
+help = "Lossless audio (largest files)."
+
+[["amd:FORMAT".options]]
+value = "'MP3'"
+label = "MP3"
+help = "Lossy — widest compatibility."
+
+[["amd:FORMAT".options]]
+value = "'OPUS'"
+label = "Opus"
+help = "Lossy — best quality at low bitrates."
+
+[["amd:FORMAT".options]]
+value = "'AAC'"
+label = "AAC"
+help = "Lossy — good quality, Apple friendly."
+
+[["amd:FORMAT".options]]
+value = "'ALAC'"
+label = "ALAC"
+help = "Lossless — Apple Lossless Audio Codec."
+
+[["amd:FORMAT".options]]
+value = "'FLAC:MP3'"
+label = "FLAC then MP3"
+help = "Try FLAC first, fall back to MP3."
+
+["amd:BITRATE"]
+helpline = "Bitrate for lossy formats (kbps)."
+
+[["amd:BITRATE".options]]
+value = "'320'"
+label = "320 kbps"
+help = "Highest quality lossy (recommended)."
+
+[["amd:BITRATE".options]]
+value = "'256'"
+label = "256 kbps"
+
+[["amd:BITRATE".options]]
+value = "'192'"
+label = "192 kbps"
+
+[["amd:BITRATE".options]]
+value = "'128'"
+label = "128 kbps"
+
+["amd:DOWNLOADMODE"]
+helpline = "Which tracks to download."
+
+[["amd:DOWNLOADMODE".options]]
+value = "'wanted'"
+label = "Wanted"
+help = "Download only tracks missing from Lidarr (recommended)."
+
+[["amd:DOWNLOADMODE".options]]
+value = "'everything'"
+label = "Everything"
+help = "Download all tracks, including those already in Lidarr."
+
+["amd:LIST"]
+helpline = "Which Lidarr lists to source artists from."
+
+[["amd:LIST".options]]
+value = "'both'"
+label = "Both"
+help = "Use both artist and album lists (recommended)."
+
+[["amd:LIST".options]]
+value = "'artist'"
+label = "Artist"
+
+[["amd:LIST".options]]
+value = "'album'"
+label = "Album"
+
+["amd:SEARCHTYPE"]
+helpline = "How strictly to match search results."
+
+[["amd:SEARCHTYPE".options]]
+value = "'both'"
+label = "Both"
+help = "Try fuzzy first, then strict (recommended)."
+
+[["amd:SEARCHTYPE".options]]
+value = "'fuzzy'"
+label = "Fuzzy"
+help = "Broader matching — may include false positives."
+
+[["amd:SEARCHTYPE".options]]
+value = "'strict'"
+label = "Strict"
+help = "Exact matching only."
+
+["amd:AUTOSTART"]
+helpline = "Automatically start downloading on container start."
+
+[["amd:AUTOSTART".options]]
+value = "'true'"
+label = "Enabled"
+
+[["amd:AUTOSTART".options]]
+value = "'false'"
+label = "Disabled"
+
+["amd:REPLAYGAIN"]
+helpline = "Embed ReplayGain tags in downloaded files."
+
+[["amd:REPLAYGAIN".options]]
+value = "'true'"
+label = "Enabled"
+
+[["amd:REPLAYGAIN".options]]
+value = "'false'"
+label = "Disabled"
+
+["amd:REQUIREQUALITY"]
+helpline = "Skip downloads that do not meet the requested format/bitrate."
+
+[["amd:REQUIREQUALITY".options]]
+value = "'false'"
+label = "Accept any quality"
+
+[["amd:REQUIREQUALITY".options]]
+value = "'true'"
+label = "Require exact quality"
+
+["amd:LIDARRURL"]
+helpline = "URL of the Lidarr instance (e.g. http://lidarr:8686)."
+
+["amd:LIDARRAPIKEY"]
+helpline = "Lidarr API key from Settings → General."
+
+["amd:ARL_TOKEN"]
+helpline = "Deezer ARL token for authentication. Obtain from your Deezer browser cookies."
+
+["amd:SCRIPTINTERVAL"]
+helpline = "How often to check for new wanted tracks (e.g. 1h, 30m, 6h)."
+
+["amd:CONCURRENCY"]
+helpline = "Number of simultaneous downloads."
+
+["amd:MBRAINZMIRROR"]
+helpline = "MusicBrainz mirror URL for metadata lookups."
+
+["amd:MBRATELIMIT"]
+helpline = "Requests per second to MusicBrainz (1 = default, respect rate limits)."
